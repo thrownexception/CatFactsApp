@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/facts_navigation"
+    app:startDestination="@id/factFragment">
+    <fragment
+        android:id="@+id/factFragment"
+        android:name="com.te.catfactsapp.view.fragments.FactFragment"
+        android:label=""
+        tools:layout="@layout/fragment_fact">
+        <action
+            android:id="@+id/actionFactToList"
+            app:destination="@id/favouritesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouritesListFragment"
+        android:name="com.te.catfactsapp.view.fragments.FavouritesListFragment"
+        android:label="List of your favourite facts"
+        tools:layout="@layout/fragment_favourites_list"
+        >
+
+        <action
+            android:id="@+id/actionListToFact"
+            app:destination="@id/factFragment" />
+    </fragment>
+</navigation>

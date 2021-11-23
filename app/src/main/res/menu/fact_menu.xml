@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/shareACatFact"
+        android:icon="@drawable/ic_share_white"
+        android:title="@string/share_a_catfact"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/addToFavourites"
+        android:icon="@drawable/ic_addtofav"
+        android:title="@string/addToFavourites"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/ic_favourite"
+        android:title="@string/fact_already_on_the_list"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/showList"
+        android:icon="@drawable/ic_list"
+        android:title="@string/show_the_list_of_favourite_facts"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

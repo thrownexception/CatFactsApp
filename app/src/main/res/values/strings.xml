@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CatFactApp</string>
+    <string name="show_next_cat_fact">SHOW NEXT CAT FACT</string>
+    <string name="addToFavourites">Add fact to favourites</string>
+    <string name="show_the_list_of_favourite_facts">Show the list of favourite facts</string>
+    <string name="delete_all_facts_from_the_list">Delete all facts from the list</string>
+    <string name="fact_already_on_the_list">Fact on the list of favourites</string>
+    <string name="delete_a_fact">Delete this fact</string>
+    <string name="share_a_catfact">Share this CatFact!</string>
+    <string name="dialog_question">Problem with Internet connection. Do you want to wait?</string>
+    <string name="wait">wait</string>
+    <string name="close_app">close app</string>
+</resources>

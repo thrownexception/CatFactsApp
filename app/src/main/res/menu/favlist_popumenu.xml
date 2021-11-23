@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/deleteAFactPopUp"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/delete_a_fact"/>
+    <item
+        android:id="@+id/shareAFactPopUp"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_a_catfact"/>
+</menu>
